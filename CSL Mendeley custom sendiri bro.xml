@@ -1438,13 +1438,13 @@
   </macro>
   <macro name="source-serial">
     <group delimiter=". ">
-      <group delimiter=", ">
+      <group delimiter=". ">
         <group delimiter=", " font-style="italic">
           <text text-case="title" variable="container-title"/>
           <text text-case="title" variable="collection-title"/>
         </group>
         <group>
-          <text font-style="italic" variable="volume"/>
+          <text font-style="italic" variable="volume" prefix="Vol. "/>
           <group delimiter=", " prefix="(" suffix=")">
             <text variable="issue"/>
             <text macro="label-supplement-number"/>
