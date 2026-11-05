@@ -384,6 +384,9 @@
           <et-al font-style="italic"/>
           <substitute>
             <names variable="author"/>
+              <name and="text" form="short"/>
+              <et-al font-style="italic"/>
+            </names>
             <names variable="illustrator"/>
             <choose>
               <if type="broadcast">
